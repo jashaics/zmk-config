@@ -21,7 +21,7 @@
 # Se la build fallisce con "board not found", sostituisci nice_nano//zmk con nice_nano_v2
 ---
 include:
-  - board: nice_nano//zmk
+  - board: nice_nano_v2
     shield: cradio_left
   - board: nice_nano//zmk
     shield: cradio_right
