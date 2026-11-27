@@ -18,3 +18,12 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+# Se la build fallisce con "board not found", sostituisci nice_nano//zmk con nice_nano_v2
+---
+include:
+  - board: nice_nano//zmk
+    shield: cradio_left
+  - board: nice_nano//zmk
+    shield: cradio_right
+  - board: nice_nano//zmk
+    shield: settings_reset
